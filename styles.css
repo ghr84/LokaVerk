@@ -1,0 +1,97 @@
+* {
+    font-family: 'Muli', sans-serif;
+}
+body {
+    background-color: rgb(234, 236, 238);
+}
+
+.card {
+    border: 4px solid #bbbbbb;
+    border-radius: 5px;
+    margin: 100px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    background-color: rgb(41, 41, 136);
+}
+.card img {
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+    width: 350px;
+}
+.card label {
+    display: block;
+}
+.card p {
+    padding: 0 10px 0;
+    font-size: 20px;
+}
+#container {
+    margin: 15% auto;
+    width: 350px;
+    height: 350px;
+}
+.button-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+#btn {
+    display: inline;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+.counter {
+    box-shadow: 5px 5px 5px rgba(101, 101, 105, 0.7);
+    border: 4px solid #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(41, 41, 136);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+}
+.counter p,
+h2 {
+    display: inline;
+}
+.counter button {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+.counter a {
+    text-decoration: none;
+}
+.stig {
+    font-size: 28px;
+    color: green;
+}
+.msg-box {
+    font-size: 18px;
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e8e820;
+    border: 2px dotted darkred;
+}
+.msg-box p {
+    margin-left: 5px;
+}
+.header-box h1 {
+    margin: 20px 0 0;
+}
+.btn-box {
+    margin-bottom: 20px;
+}
+.btn-box button a {
+    display: block;
+}
