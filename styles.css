@@ -43,13 +43,19 @@ body {
     height: 40px;
     width: 100px;
 }
+#btn_3 {
+    display: inline;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
 .counter {
     box-shadow: 5px 5px 5px rgba(101, 101, 105, 0.7);
     border: 4px solid #bbbbbb;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 300px;
+    height: 400px;
     width: 350px;
     background-color: rgb(41, 41, 136);
     color: rgb(255, 255, 255);
@@ -83,6 +89,17 @@ h2 {
     background-color: #e8e820;
     border: 2px dotted darkred;
 }
+.msg-box_2 {
+    padding: 0 0 7px;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #e8e820;
+    border: 2px dotted darkred;
+}
 .msg-box p {
     margin-left: 5px;
 }
@@ -94,4 +111,8 @@ h2 {
 }
 .btn-box button a {
     display: block;
+}
+
+.btn-holder_2 {
+    padding: 0 0 18px;
 }
